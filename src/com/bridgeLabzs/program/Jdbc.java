@@ -10,11 +10,8 @@ import com.bridgeLabzs.utility.utility;
 public class Jdbc {
 				public static void main(String[] args) {
 					System.out.println("Program Started");
-					//utility utility=new utility();
 					String query="insert into program1.Student values(?,?,?,?,?);";
-				    //utility.delete();
-					//utility.insertData();
-					PreparedStatement preparedStatement=null;
+				        PreparedStatement preparedStatement=null;
 					Connection connection=null;
 					try {
 						Class.forName("com.mysql.jdbc.Driver");
